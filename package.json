@@ -1,0 +1,22 @@
+{
+  "name": "kinvey-flex-chat",
+  "version": "1.0.0",
+  "description": "this is a sample chat backend for kinvey flex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girishsarwal/kinvey-flex-chat.git"
+  },
+  "author": "girish sarwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girishsarwal/kinvey-flex-chat/issues"
+  },
+  "homepage": "https://github.com/girishsarwal/kinvey-flex-chat#readme",
+  "dependencies": {
+    "kinvey-flex-sdk": "^3.2.0"
+  }
+}
