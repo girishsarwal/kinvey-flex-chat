@@ -1,6 +1,7 @@
 
-/** pre save hook for a chat messagingrwal (girish@kinvey.com)
+/** pre save hook for a chat messaging
  * girish sarwal (girish@kinvey.com)
+ * this hook "forward updates" the read status of multiple recipients
  * 
  */
 const sdk = require('kinvey-flex-sdk');
