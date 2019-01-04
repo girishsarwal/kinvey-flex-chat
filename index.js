@@ -21,6 +21,7 @@ sdk.service((err, flex) => {
             console.log(entity);
             return complete().setBody(entity).created().next();
         } else if (context.method === 'PUT'){
+            /** this is an update to an exsiting message */
             console.log(context);
             let messageId = context.entityId;
             modules.dataStore().collection('messages').findById(messageId, (err, found)=>{
@@ -36,4 +37,5 @@ sdk.service((err, flex) => {
             })
         }
     });
+    
 });
